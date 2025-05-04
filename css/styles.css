@@ -81,7 +81,6 @@ body {
   text-transform: uppercase;
   font-family: 'Raleway Dots', sans-serif;
 }
-
 /* DID word */
 
 .didDLetter {
@@ -93,23 +92,13 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.didILetter {
+.didILetter, .didDTwoLetter {
   font-size: larger;
   font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
+  color: rgb(207, 31, 160);
   text-decoration: dashed;
   text-transform: capitalize;
   font-family: fantasy;
-
-}
-
-.didDTwoLetter {
-  font-size: 40px;
-  font-weight: bold;
-  color: rgba(209, 203, 12, 0.837);
-  text-decoration: overline;
-  text-transform: uppercase;
-  font-family: monospace;
 }
 
 /* THE word */
@@ -123,23 +112,20 @@ body {
   font-family: 'Raleway Dots', sans-serif;
 }
 
-
-
 /* FRONT-END word */
-
-.frontendFLetter {
+.frontendFLetter, .frontendRLetter, .frontendELetter {
   font-size: larger;
-  font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
+  font-weight: 700;}
+
+  .frontendFLetter {
+  color: #04085e;
   text-decoration: dashed;
   text-transform: capitalize;
   font-family: fantasy;
 }
 
 .frontendRLetter {
-  font-size: larger;
-  font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
+  color: khaki;
   text-decoration: dashed;
   text-transform: capitalize;
   font-family: fantasy;
@@ -148,9 +134,8 @@ body {
 .frontendOLetter {
   font-size: 80px;
   font-weight: normal;
-  color: rgb(red, green, blue);
+  color: indianred;
   text-decoration: none;
-  text-transform: line-through;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -165,16 +150,12 @@ body {
 
 .frontendTLetter {
   font-size: 40px;
-  font-weight: bold;
   color: darkgoldenrod;
-  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
 }
 
 .frontendELetter {
-  font-size: 90px;
-  font-weight: 400;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: uppercase;
@@ -185,7 +166,6 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
-  text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
 }
@@ -194,19 +174,18 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
-  text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
 }
-
+.frontendNTwoLetter, .frontendDLetter, .frontendTLetter {
+  text-decoration: overline;
+}
 /* DEVELOPER word */
 
 .developerDLetter {
   font-size: 72px;
-  font-weight: normal;
   color: aqua;
   text-decoration: dotted;
-  text-transform: lowercase;
   font-family: 'Piazolla', sans-serif;
 }
 .developerELetter {
@@ -221,7 +200,6 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  text-decoration: normal;
   text-transform: uppercase;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -230,18 +208,10 @@ body {
   font-weight: bold;
   color: #bbc7b2;
   text-decoration: underline;
-  text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.developerLLetter {
-  font-size: 70px;
-  font-weight: 700;
-  color: #220091;
-  text-decoration: double;
-  text-transform: lowercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.developerOLetter, .developerPLetter {
+
+.developerOLetter, .developerPLetter, .developerLLetter {
   font-size: 30px;
   font-weight: bold;
   color: rgb(26, 73, 31);
@@ -265,40 +235,23 @@ body {
   font-weight: bold;
   color: #980909;
   text-decoration: underline;
-  text-transform: uppercase;
   font-family: monospace;
 }
 
 /* TAKE word */
 
-.takeTLetter {
-  font-size: 85px;
-  font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
-  text-decoration: dashed;
-  text-transform: capitalize;
-  font-family: fantasy;
-}
-.takeALetter {
-  font-size: 40px;
-  font-weight: bold;
-  color: #023012;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
+
 .takeKLetter {
   font-size: 50px;
   font-weight: 400;
   color: #2a9510;
   text-decoration: underline;
-  text-transform: lowercase;
   font-family: monospace;
 }
-.takeELetter {
+.takeELetter, .takeALetter, .gardeningALetter, .gardeningRLetter {
   font-size: 30px;
   font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
+  color: #00778c;
   text-decoration: dashed;
   text-transform: capitalize;
   font-family: fantasy;
@@ -306,54 +259,20 @@ body {
 
 /* UP word */
 
-.upULetter {
-  font-size: 80px;
-  font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
-  text-decoration: dashed;
-  text-transform: capitalize;
-  font-family: fantasy;
-}
-.upPLetter {
+.upPLetter, .gardeningDLetter, .gardeningNTwoLetter{
   font-size: 50px;
   font-weight: 700;
-  color: rgb(rgb(24, 8, 8), rgb(142, 173, 142), rgb(92, 92, 144));
+  color: darkmagenta;
   text-decoration: dashed;
   text-transform: capitalize;
   font-family: cursive;
 }
 
 /* GARDENING word */
-
-.gardeningGLetter {
-  font-size: 50px;
-  font-weight: 700;
-  color: hsl(hue, saturation, lightness);
-  text-decoration: dashed;
-  text-transform: capitalize;
-  font-family: fantasy;
-}
-.gardeningALetter, .gardeningRLetter {
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(224, 139, 139);
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
-}
-
-.gardeningDLetter {
-  font-size: 35px;
-  font-weight: bold;
-  color: rgb(195, 255, 0);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: 'Piazolla', sans-serif;
-}
 .gardeningELetter {
   font-size: 40px;
   font-weight: bold;
-  color: hsl(hue, saturation, lightness);
+  color: turquoise;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
@@ -367,14 +286,7 @@ body {
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
 }
-.gardeningNTwoLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: 'Piazolla', sans-serif;
-}
+
 .gardeningGTwoLetter {
   font-size: 72px;
   font-weight: bold;
@@ -385,7 +297,6 @@ body {
 }
 
 /* BECAUSE word */
-
 
 .becauseELetter {
   font-size: 72px;
@@ -448,14 +359,7 @@ body {
   text-transform: uppercase;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.theyELetter {
-  font-size: 50px;
-  font-weight: bold;
-  color: rgb(92, 92, 144);
-  text-decoration: none;
-  text-transform: lowercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 .theyYLetter {
   font-size: 40px;
   font-weight: bold;
@@ -466,15 +370,6 @@ body {
 }
 
 /* WANTED word */
-
-.wantedWLetter {
-  font-size: 20px;
-  font-weight: bold;
-  color: #d7d7e3;
-  text-decoration: dashed;
-  text-transform: uppercase;
-  font-family: monospace;
-}
 .wantedALetter {
   font-size: 80px;
   font-weight: bold;
@@ -483,26 +378,11 @@ body {
   text-transform: uppercase;
   font-family: monospace;
 }
-.wantedNLetter {
-  font-size: 100px;
-  font-weight: normal;
-  color: #000000;
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: monospace;
-}
-.wantedTLetter {
-  font-size: 60px;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
-.wantedELetter {
+
+.wantedELetter, .wantedTLetter, .theyELetter {
   font-size: 40px;
   font-weight: bold;
-  color: #e8f314;
+  color: #414228;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: monospace;
@@ -518,14 +398,6 @@ body {
 
 /* TO word */
 
-.toTLetter {
-  font-size: 130x;
-  font-weight: bold;
-  color: #3aa92b;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
 .toOLetter {
   font-size: 40px;
   font-weight: bold;
@@ -561,14 +433,7 @@ body {
   text-transform: uppercase;
   font-family: monospace;
 }
-.improveRLetter {
-  font-size: 50px;
-  font-weight: bold;
-  color: #ec0000;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
+
 .improveOLetter {
   font-size: 20px;
   font-weight: bold;
@@ -580,28 +445,26 @@ body {
 .improveVLetter {
   font-size: 120px;
   font-weight: 700;
-  color: hsl(hue, saturation, lightness);
+  color: lime;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: monospace;
 }
-.improveELetter {
-  font-size: 20px;
-  font-weight: 700;
-  color: rgb(156, 237, 17);
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
-
+.improveELetter 
 /* THEIR word */
+.improveRLetter, .improveILetter, .wantedWLetter, .wantedNLetter{
+font-size: 40px;
+  font-weight: 700;
+  color: lavender;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  font-family: fantasy;}
 
-.theirTLetter {
+.theirTLetter, .rootOTwoLetter, .skillsILetter, .skillsLTwoLetter {
   font-size: 40px;
   font-weight: 400;
   color: #dee910;
   text-decoration: none;
-  text-transform: lowercase;
   font-family: cursive;
 }
 .theirHLetter {
@@ -617,15 +480,13 @@ body {
   font-weight: bold;
   color: #495628;
   text-decoration: underline;
-  text-transform: lower;
   font-family: monospace;
 }
 .theirILetter {
   font-size: 70px;
   font-weight: 400;
-  color: hsl(hue, saturation, lightness);
+  color: rgb(252, 87, 241);
   text-decoration: line-through;
-  text-transform: uppercase;
   font-family: monospace;
 }
 .theirRLetter {
@@ -636,7 +497,6 @@ body {
   text-transform: lowercase;
   font-family: kh;
 }
-
 /* ROOT word */
 
 .rootRLetter {
@@ -646,22 +506,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-family: monospace;
-}
-.rootOLetter {
-  font-size: 20px;
-  font-weight: bold;
-  color: #39d305;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: fantasy;
-}
-.rootOTwoLetter {
-  font-size: 40px;
-  font-weight: bold;
-  color: #863737;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: serif;
 }
 .rootTLetter {
   font-size: 70px;
@@ -674,14 +518,6 @@ body {
 
 /* SKILLS word */
 
-.skillsSLetter {
-  font-size: 50px;
-  font-weight: bold;
-  color: #426d13;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: monospace;
-}
 .skillsKLetter {
   font-size: 70px;
   font-weight: 400;
@@ -690,32 +526,17 @@ body {
   text-transform: lowercase;
   font-family: monospace;
 }
-.skillsILetter {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgba(209, 203, 12, 0.837);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
-}
+
 .skillsLLetter {
   font-size: 100px;
-  font-weight: 400;
   color: #c20000;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.skillsLTwoLetter {
+
+.skillsSTwoLetter, .skillsLTwoLetter  {
   font-size: 40px;
-  font-weight: bold;
-  color: #f9f9f9;
-  text-decoration: line-through;
-  text-transform: lowercase;
-  font-family: monospace;
-}
-.skillsSTwoLetter {
-  font-size: 40x;
   font-weight: bold;
   color: #eaebff;
   text-decoration: underline;
@@ -725,27 +546,33 @@ body {
 
 /* SYMBOLS */
 
-.hyphen {
-  font-size: 60px;
-  font-weight: normal;
-  color: hsl(hue, saturation, lightness);
-  text-decoration: line-through;
-  text-transform: lowercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.exclamation-mark {
-  font-size: 200px;
-  font-weight: bold;
-  color: #b4f308;
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.question-mark {
+
+.question-mark, .hyphen  {
   font-size: 75px;
   font-weight: 400;
   color: #0d0202;
   text-decoration: overline;
-  text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.takeTLetter, .upULetter, .gardeningGLetter, .skillsSLetter {
+  font-size: 50px;
+  font-weight: 700;
+  color: orange;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  font-family: fantasy;
+}
+.takeKLetter, .developerDLetter, .hyphen, .question-mark, .developerETwoLetter, .developerRLetter, .theirTLetter, .theirELetter,.theirILetter{
+  text-transform: lowercase;
+}
+.takeTLetter, .frontendTLetter, .developerDLetter, .gardeningILetter, .skillsLLetter{
+  font-weight: 700;}
+
+  .whyYLetter, .didILetter, .exclamation-mark, .rootOLetter, .improveELetter, .toTLetter {
+  font-size: 40px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;}
